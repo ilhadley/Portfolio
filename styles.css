@@ -1,0 +1,41 @@
+html{
+    background-color: antiquewhite;
+}
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    padding: 15px;
+}
+
+nav > a{
+    color: rgb(251, 251, 254);
+    padding: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: all 1s ease-in-out;
+}
+a:hover{
+    background-color: rgba(255, 255, 255, 0.096);
+}
+nav {
+    box-sizing: border-box;
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: rgba(240, 248, 255, 0.13);
+}
+h1 {
+    /* color: rgb(99, 99, 99) */
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(100, 100, 193);
+    justify-content: space-between;
+    /* background-color: rgba(154, 155, 156, 0.479); */
+}
